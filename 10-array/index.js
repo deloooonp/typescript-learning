@@ -1,21 +1,12 @@
+"use strict";
 // Putting [] will assign to type never
 // const heros: [] = [];
-const heros: string[] = [];
+const heros = [];
 // const heroPower: number[] = [];
 // You can use diamond brackets like this too. Works the same
-const heroPower: Array<number> = [];
-
+const heroPower = [];
 heros.push("spiderman");
 heroPower.push(2);
-
-type User = {
-  name: string;
-  isActive: boolean;
-};
-
-const MLModels: number[][] = [[255, 255, 255]];
-const allUsers: User[] = [];
-
+const MLModels = [[255, 255, 255]];
+const allUsers = [];
 allUsers.push({ name: "Delon", isActive: true });
-
-export {};
